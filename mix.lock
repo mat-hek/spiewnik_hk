@@ -1,0 +1,10 @@
+%{
+  "bunch": {:hex, :bunch, "1.1.0", "bf9ca22c788ad4f486afb4d6d5e1211ab09cbee473c5cf370e6e550b1df4bc4b", [:mix], [], "hexpm", "8296385f70cc713f7bffbe467c29679a9ac8e0f2cbe114ebb537bd4edf50dd82"},
+  "castore": {:hex, :castore, "0.1.8", "1b61eaba71bb755b756ac42d4741f4122f8beddb92456a84126d6177ec0af1fc", [:mix], [], "hexpm", "23ab8305baadb057bc689adc0088309f808cb2247dc9a48b87849bb1d242bb6c"},
+  "chordpro": {:git, "https://github.com/adamzaninovich/elixir-chordpro-parser.git", "58ae28505b66e4901aed1e86f521386230a8ae31", []},
+  "floki": {:hex, :floki, "0.29.0", "b1710d8c93a2f860dc2d7adc390dd808dc2fb8f78ee562304457b75f4c640881", [:mix], [{:html_entities, "~> 0.5.0", [hex: :html_entities, repo: "hexpm", optional: false]}], "hexpm", "008585ce64b9f74c07d32958ec9866f4b8a124bf4da1e2941b28e41384edaaad"},
+  "html_entities": {:hex, :html_entities, "0.5.1", "1c9715058b42c35a2ab65edc5b36d0ea66dd083767bef6e3edb57870ef556549", [:mix], [], "hexpm", "30efab070904eb897ff05cd52fa61c1025d7f8ef3a9ca250bc4e6513d16c32de"},
+  "jason": {:hex, :jason, "1.2.2", "ba43e3f2709fd1aa1dce90aaabfd039d000469c05c56f0b8e31978e03fa39052", [:mix], [{:decimal, "~> 1.0 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "18a228f5f0058ee183f29f9eae0805c6e59d61c3b006760668d8d18ff0d12179"},
+  "mint": {:hex, :mint, "1.2.0", "65e9d75c60c456a5fb1b800febb88f061f56157d103d755b99fcaeaeb3e956f3", [:mix], [{:castore, "~> 0.1.0", [hex: :castore, repo: "hexpm", optional: true]}], "hexpm", "19cbb3a5be91b7df4a35377ba94b26199481a541add055cf5d1d4299b55125ab"},
+  "peppermint": {:hex, :peppermint, "0.3.1", "71aad81bd88371c5f5b26c0d57ddeaf5eed0158844767d20237efe8b648c2c36", [:mix], [{:castore, "~> 0.1", [hex: :castore, repo: "hexpm", optional: true]}, {:mint, "~> 1.0", [hex: :mint, repo: "hexpm", optional: false]}], "hexpm", "aa06f896cc52488c69f9a2e0f75fa2fe95093e98b93a631d109e1a0c4edbaba3"},
+}
